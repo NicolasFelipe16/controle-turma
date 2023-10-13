@@ -1,0 +1,12 @@
+.main__alert{
+    position: absolute;
+    top: calc(50% - 70px);
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: red;
+    color: var(--color-05);
+    font-family: var(--font-01);
+    font-size: 20px;
+    padding: 25px;
+    border-radius: var(--border-radius-1);
+}
