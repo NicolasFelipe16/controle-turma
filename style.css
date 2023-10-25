@@ -231,10 +231,6 @@ body{display: grid; grid-template-areas: "nav main";
     transition: var(--transition);
 }
 
-.card-open{
-    box-shadow: 0px 0px 10px 1px rgba(128, 128, 128, .5);
-}
-
 .card__title{
     background-color: var(--color-02);
     color: var(--color-05);
@@ -292,6 +288,7 @@ body{display: grid; grid-template-areas: "nav main";
     background-color: var(--color-05);
     border-bottom-left-radius: var(--border-radius-1);
     border-bottom-right-radius: var(--border-radius-1);
+    box-shadow: 0px 0px 10px 1px rgba(128, 128, 128, .5);
     transition: var(--transition);
 }
 
@@ -305,11 +302,10 @@ body{display: grid; grid-template-areas: "nav main";
 
 .card__content ul li{
     list-style-type: none;
-    margin: 5px 0;
 }
 
-.card-close .card__content ul li{
-    margin: 0;
+.card-open .card__content ul li{
+    padding: 10px 0;
 }
 
 @media screen and (max-width: 800px) {
