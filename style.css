@@ -24,7 +24,6 @@
     --border-radius-2: 50px;
 
     --transition: .1s;
-    transition: var(--transition);
 }
 
 /*BODY*/
