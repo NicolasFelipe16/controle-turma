@@ -17,6 +17,7 @@
     transition: var(--transition);
     font-family: var(--font-01);
     font-size: 16px;
+    max-width: calc(100% - 30px);
 }
 
 .note{
