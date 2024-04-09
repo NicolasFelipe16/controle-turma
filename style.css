@@ -351,19 +351,20 @@ body {
 }
 
 .card-open .card__content {
-  line-height: 100%;
-  padding: 10px 20px;
+  line-height: 18px;
+  padding: 20px;
   color: var(--color-01);
   overflow: visible;
   transition: var(--transition);
 }
 
+.card__content ul {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
 .card__content ul li {
   list-style-type: none;
-}
-
-.card-open .card__content ul li {
-  padding: 10px;
 }
 
 .card__content ul li span {
@@ -375,7 +376,7 @@ body {
   background-color: var(--color-03);
   border-radius: var(--border-radius-2);
   padding: 2.5px 10px;
-  margin-bottom: 5px;
+  margin-bottom: 10px;
 }
 .card-open .card__content ul li span {
   display: block;
