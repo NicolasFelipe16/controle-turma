@@ -363,6 +363,11 @@ body {
   flex-direction: column;
   gap: 10px;
 }
+
+.card-close .card__content ul{
+  gap: 0;
+}
+
 .card__content ul li {
   list-style-type: none;
 }
