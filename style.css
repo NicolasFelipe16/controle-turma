@@ -383,8 +383,13 @@ body {
   padding: 2.5px 10px;
   margin-bottom: 10px;
 }
+
 .card-open .card__content ul li span {
   display: block;
+}
+
+.card__content ul li span.expired{
+  background-color: rgb(255, 50, 50);
 }
 
 @media screen and (max-width: 800px) {
