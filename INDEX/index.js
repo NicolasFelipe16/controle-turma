@@ -1,9 +1,10 @@
-var body = document.querySelector('.body');
+var main__cards = document.querySelectorAll('.main__card');
+var card__icons = document.querySelectorAll('.card__icon');
+var card__titles = document.querySelectorAll('.card__title');
 
-var nav = document.querySelector('.nav');
-var nav__icon = document.querySelector('.nav__icon');
-
-nav__icon.addEventListener('click', function () {
-    body.classList.toggle('nav-close');
-    body.classList.toggle('nav-open');
-})
+card__titles.forEach(function (card__title, index) {
+    card__title.addEventListener('click', function () {
+        main__cards[index].classList.toggle('card-open');
+        main__cards[index].classList.toggle('card-close');
+    });
+});
